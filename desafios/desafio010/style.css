@@ -1,0 +1,166 @@
+    @font-face {
+    font-family: Rooney;
+    src: url('fontes/rooneysans-cufonfonts/RooneySansMedium.OTF') format('opentype'), url('RooneySansMedium.otf') format('truetype');
+    }
+    @font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype'), url('idroid.otf') format('truetype')
+
+    }
+
+
+
+
+    body {
+    margin: -10px;
+    }
+
+    div#header{
+    background-image: linear-gradient(to bottom, rgb(41, 105, 28), rgb(63 131 49), rgb(38 104 25), rgb(23 74 13));
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+
+
+    header > h1 {
+    font-family: Rooney;
+    color: white;
+    font-weight: 600;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    }
+  
+     header > h2 {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: white;
+      font-weight: 200;
+    }
+
+    div#fundo {
+    background-color: rgb(248, 247, 202);
+    align-items: center;
+    width: auto;
+        }
+
+    div#meio {
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+    margin: 0px 90px 0px 90px; 
+    width: auto;
+    height: 200%;
+    }
+
+    div#meio > h2 {
+    color: rgb(5, 88, 5);
+    background-image: linear-gradient(to right, rgba(91, 241, 91, 0.199),rgba(0, 128, 0, 0.281), rgba(0, 128, 0, 0.034));
+    }
+
+    h1 {
+    color: #055805;
+    font-family: idroid;
+    
+    margin: 10px 10px 10px 10px;
+    }
+
+    h2 {
+    font-family: idroid;
+    margin: 10px 10px 10px 10px;
+    }
+
+    p {
+        text-indent: 2em;
+        margin: 10px 10px 10px 10px;
+    }
+
+
+    nav {
+    text-align: left;
+    font-size:medium;
+    padding: 1rem;
+    }
+
+    nav > a:visited {
+    color: white;
+    }
+
+
+    .link {
+    color: white;
+    text-decoration: solid;
+    font-size: larger;
+    padding: 0.5rem;
+    }
+
+
+
+    a:visited {
+    color: #0f7e14;
+    }
+
+
+    .container {
+    margin-left: 20px;
+    max-width: 550px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    }
+
+    IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+    img {
+        width: 50%;
+    }    
+
+    .container ul {
+    list-style-type: none;
+    }
+
+
+    figure { width: 90%; min-width: 5.5em; margin:0 auto;}
+    .boxVideo {
+        position: relative;
+        padding-bottom: 56.25%; 
+        padding-top: 25px;
+        height: 0;
+        margin:0 auto;
+    }
+    .boxVideo iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .aprender > h3 {
+        background-color: #055805;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .aprender {
+        background-color: #b0eecc;
+        border-radius: 10px;
+        text-align: inherit;
+        padding: 0px 0px 1px 0px;
+    }
+    
+    .aprender > p {
+    text-indent: 2em;
+    }
+
+    footer {
+        text-align: center;
+        background-color: #055805;
+        color: white;
+    }
+
+    #end {text-indent: 2em;
+   
+    }
